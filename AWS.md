@@ -92,60 +92,35 @@
 
 ### S3 - Versioning
 
--   Versioning on bucket cannot be undone
-    
--   Integrates with Lifecycle rules (to move things to Glacier storgate)
-    
--   MFA Delete capability
-    
--   Uploading new version of file overwrites public access by default
-    
--   All versions taking up space, architectural consideration
-    
--   Stores all versions
-    
--   Deleting the file only adds a Delete Marker
-    
--   Versions (inc. Delete Marker) can be deleted to restore older versions
-    
+* Versioning on bucket cannot be undone
+* Integrates with Lifecycle rules (to move things to Glacier storgate)
+* MFA Delete capability
+* Uploading new version of file overwrites public access by default
+* All versions taking up space, architectural consideration
+* Stores all versions
+* Deleting the file only adds a Delete Marker
+* Versions (inc. Delete Marker) can be deleted to restore older versions
 
-  
+### S3 - LifeCycle Rules
 
-S3 - LifeCycle Rules
+* Applied on Bucket under Management tab
+* Create a Rule, use Tags or file prefix pattern to match Files to apply Rule to
+* Setup transitions for current and previous versions to move to other tiers (S3-IA, Glacier)
 
--   Applied on Bucket under Management tab
-    
--   Create a Rule, use Tags or file prefix pattern to match Files to apply Rule to
-    
--   Setup transitions for current and previous versions to move to other tiers (S3-IA, Glacier)
-    
+### S3 - Cross Region Replication
 
-  
+* Applied on Bucket under Management tab - See Replication
+* Replication requires Versioning on both source and target buckets
+* Replicate Bucket, or Files based on Tags/Prefix
+* Replicate to lower cost storage
+* Destination will be another Bucket in different Region
+* Only replicates new uploads, not existing Files
+* Delete Markers are not replicated as part of CRR rule
+* Does not replicate Deletes on Versions themselves
 
-S3 - Cross Region Replication
+### S3 - Transfer Acceleration
 
--   Applied on Bucket under Management tab - See Replication
-    
--   Replication requires Versioning on both source and target buckets
-    
--   Replicate Bucket, or Files based on Tags/Prefix
-    
--   Replicate to lower cost storage
-    
--   Destination will be another Bucket in different Region
-    
--   Only replicates new uploads, not existing Files
-    
--   Delete Markers are not replicated as part of CRR rule
-    
--   Does not replicate Deletes on Versions themselves
-    
-
-  
-
-S3 - Transfer Acceleration
-
--   CloudFront Edge Network used
+* CloudFront Edge Network used
     
 -   Distinct URL to upload directly to edge location
     
@@ -154,6 +129,6 @@ S3 - Transfer Acceleration
 
 Cloud Front
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU5ODA1ODgsNTk5ODkxOTI4LDE3MD
-U5MTQzMjMsLTQ4OTI1MTUwNCwtMTc3MzQ5NDQzMl19
+eyJoaXN0b3J5IjpbNDc1MTM3NTQzLDU5OTg5MTkyOCwxNzA1OT
+E0MzIzLC00ODkyNTE1MDQsLTE3NzM0OTQ0MzJdfQ==
 -->
