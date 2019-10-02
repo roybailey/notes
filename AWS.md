@@ -61,29 +61,19 @@
 ### S3 Billing
 
 * Storage use
-    
--   Number of requests to objects
-    
--   Storage management pricing (tiers)
-    
--   Data Transfer Pricing
-    
--   Transfer Acceleration = Caching in Edge Locations using CloudFront
-    
--   Cross Region Replication Pricing = replication from one region to another
-    
+* Number of requests to objects
+* Storage management pricing (tiers)
+* Data Transfer Pricing
+* Transfer Acceleration = Caching in Edge Locations using CloudFront
+* Cross Region Replication Pricing = replication from one region to another
 
--   Make Public at Bucket or File level (File only if Bucket level is set)
-    
--   By default all Buckets are Private
-    
+### S3 Bucket/Object 
 
--   Bucket Policies = Bucket level access control
-    
--   Access Control = File level access control
-    
-
--   Create access logs
+* `Make Public` at Bucket or File level (File only if Bucket level is set)
+* By default all Buckets are Private
+* Bucket Policies = Bucket level access control
+* Access Control = File level access control
+* Create access logs for auditing Bucket/Object access
     
 
 S3 - Encryption
@@ -188,6 +178,6 @@ S3 - Transfer Acceleration
 
 Cloud Front
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5ODkxOTI4LDE3MDU5MTQzMjMsLTQ4OT
-I1MTUwNCwtMTc3MzQ5NDQzMl19
+eyJoaXN0b3J5IjpbLTE5MTAzMTk3NjksNTk5ODkxOTI4LDE3MD
+U5MTQzMjMsLTQ4OTI1MTUwNCwtMTc3MzQ5NDQzMl19
 -->
