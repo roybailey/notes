@@ -7,6 +7,9 @@
 * **EDGE LOCATION** = Caching content; Content Delivery Network (CDN) e.g. ***CloudFront***
 * **VIRTUAL PRIVATE CLOUD (VPC)** = virtual network dedicated to a single AWS account. Logically isolated from other virtual networks in the AWS cloud, providing compute resources with security and robust networking functionality.
 * **S3** = Simple Storage Solution
+* **CDN** = Content Delivery Network
+* **ORIGIN** = Origin of files distributed by CDN
+* **DISTRIBUTION** = Collection of Edge Locations
 
 ## S3
 
@@ -118,11 +121,12 @@
 
 ### Cloud Front
 
-* E
-* CDN = Content Delivery Network
-*  
+* **CDN** = Content Delivery Network
+* **ORIGIN** = Origin of files distributed by CDN
+* **DISTRIBUTION** = Collection of Edge Locations
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODAwNTg2NzQsNDY3MjM3MzYwLC0xNT
-Q3MDc3MDA4LDU5OTg5MTkyOCwxNzA1OTE0MzIzLC00ODkyNTE1
-MDQsLTE3NzM0OTQ0MzJdfQ==
+eyJoaXN0b3J5IjpbMTI5MjgxNDQxMiw0NjcyMzczNjAsLTE1ND
+cwNzcwMDgsNTk5ODkxOTI4LDE3MDU5MTQzMjMsLTQ4OTI1MTUw
+NCwtMTc3MzQ5NDQzMl19
 -->
