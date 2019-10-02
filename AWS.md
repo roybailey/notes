@@ -119,7 +119,7 @@
 * Distinct URL to upload directly to edge location
 * Uploads then transferred via AWS fast network to your bucket
 
-### Cloud Front
+### CloudFront
 
 * **CDN** = Content Delivery Network
 * **EDGE LOCATION** = Location Content is Cached; Different to Region/AZ
@@ -130,12 +130,15 @@
 * Web Distribution = Websites
 * RTMP = Streaming
 * Objects cached for Time To Live (TTL) - configurable
-* Caches can be cleared (charged fo
+* Caches can be cleared (charged for invalidating the cache)
+
+### CloudFront Distribution
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjAxNzgyMSw0NjcyMzczNjAsLTE1ND
-cwNzcwMDgsNTk5ODkxOTI4LDE3MDU5MTQzMjMsLTQ4OTI1MTUw
-NCwtMTc3MzQ5NDQzMl19
+eyJoaXN0b3J5IjpbMzQ2NDAzMzgwLDQ2NzIzNzM2MCwtMTU0Nz
+A3NzAwOCw1OTk4OTE5MjgsMTcwNTkxNDMyMywtNDg5MjUxNTA0
+LC0xNzczNDk0NDMyXX0=
 -->
