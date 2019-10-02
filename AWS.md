@@ -24,25 +24,18 @@
 * Bucket = Globally Unique name
   * Gets own url e.g. `https://s3-eu-west-1.amazonaws.com/<bucketname>`
 * Uploads to S3 = 200 code = OK
-    
--   Object
-    
 
--   Key (filename)
-    
--   Value (bytes of data)
-    
--   VersionID (versioning)
-    
--   Metadata (data about the data being stored e.g. belongs to)
-    
--   Subresources e.g. Access Control List (permissions at bucket or object), Torrents
-    
+### S3 Bucket Object (aka File)
 
--   Consistency on S3
-    
+  * Key (filename)
+  * Value (bytes of data)
+  * VersionID (versioning)
+  * Metadata (data about the data being stored e.g. belongs to)
+  * SubResources e.g. Access Control List (permissions at bucket or object), Torrents
+ 
+ ### S3 Consistency
 
--   Read after write consistency for PUTs of new Objects
+* Read after write consistency for PUTs of new Objects
     
 -   Eventual consistency for overwrite PUTs and DELETEs
     
@@ -208,6 +201,6 @@ S3 - Transfer Acceleration
 
 Cloud Front
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzMwNzAwMTAsMTcwNTkxNDMyMywtND
+eyJoaXN0b3J5IjpbLTE4NjQ1ODg1MjMsMTcwNTkxNDMyMywtND
 g5MjUxNTA0LC0xNzczNDk0NDMyXX0=
 -->
