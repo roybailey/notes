@@ -51,14 +51,10 @@
 
 ### S3 Storage Classes
 
-
--   S3 Standard
-    
--   S3 - IA (Infrequently Accessed)
-    
--   S3 One Zone - IA = lower cost, one availability zone
-    
--   S3 - Intelligent Tiering = designed to optimize storage movements based on ML
+* `S3 Standard`
+* `S3 - IA` = Infrequently Accessed but fast access
+* `S3 One Zone - IA` = lower cost, Infrequently Accessed in one availability zone only
+* `S3 - Intelligent Tiering` = Designed to optimise storage movements based on Machine Learning (i.e. monitoring bucket/file 
     
 -   S3 Glacier = low cost, retrievable in minutes/hours
     
@@ -196,6 +192,6 @@ S3 - Transfer Acceleration
 
 Cloud Front
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjcyNjExNjUsMTcwNTkxNDMyMywtND
-g5MjUxNTA0LC0xNzczNDk0NDMyXX0=
+eyJoaXN0b3J5IjpbNjM4ODkwNTQ2LDE3MDU5MTQzMjMsLTQ4OT
+I1MTUwNCwtMTc3MzQ5NDQzMl19
 -->
