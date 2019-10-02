@@ -1,13 +1,15 @@
 # AWS Notes
 
+## Glossary
+
 * **REGION** = area of world with 2+ Availability Zones
-* **AVAILABILITY ZONE = Data Centre (or Data Centres that are too close to be considered alternative failover DC)
-* Edge Location = Caching content; Content Delivery Network (CDN) e.g. CloudFront
-* A Virtual Private Cloud (VPC) = virtual network dedicated to a single AWS account. Logically isolated from other virtual networks in the AWS cloud, providing compute resources with security and robust networking functionality.
+* **AVAILABILITY ZONE** = Data Centre (or Data Centres that are too close to be considered alternative failover DC)
+* **EDGE LOCATION** = Caching content; Content Delivery Network (CDN) e.g. ***CloudFront***
+* **VIRTUAL PRIVATE CLOUD (VPC)** = virtual network dedicated to a single AWS account. Logically isolated from other virtual networks in the AWS cloud, providing compute resources with security and robust networking functionality.
 
-Created account with roybaileybiz@gmail.com as professional and with business card.
+## AWS Account
 
-  
+Created account with `roybaileybiz@gmail.com` as `Professional` and with business debit card.
 
 Activated MDA and captured qr-code if authentication device is lost
 
@@ -216,6 +218,6 @@ S3 - Transfer Acceleration
 
 Cloud Front
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1MzYwNjQ5LDE3MDU5MTQzMjMsLTQ4OT
-I1MTUwNCwtMTc3MzQ5NDQzMl19
+eyJoaXN0b3J5IjpbLTE1MDM2NDk2NTIsMTcwNTkxNDMyMywtND
+g5MjUxNTA0LC0xNzczNDk0NDMyXX0=
 -->
