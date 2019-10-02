@@ -54,17 +54,13 @@
 * `S3 Standard`
 * `S3 - IA` = Infrequently Accessed but fast access
 * `S3 One Zone - IA` = lower cost, Infrequently Accessed in one availability zone only
-* `S3 - Intelligent Tiering` = Designed to optimise storage movements based on Machine Learning (i.e. monitoring bucket/file 
-    
--   S3 Glacier = low cost, retrievable in minutes/hours
-    
--   S3 Glacier Deep Archive = lowest cost, 12 hours retrieve time
-    
+* `S3 - Intelligent Tiering` = Designed to optimise storage movements based on Machine Learning (i.e. monitoring bucket/file real world usage to move and lower storage costs)
+* `S3 Glacier` = low cost, retrievable in minutes or hours
+* `S3 Glacier Deep Archive` = lowest cost, 12 hours retrieve time
 
--   Billing
-    
+### S3 Billing
 
--   Storage use
+* Storage use
     
 -   Number of requests to objects
     
@@ -192,6 +188,6 @@ S3 - Transfer Acceleration
 
 Cloud Front
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4ODkwNTQ2LDE3MDU5MTQzMjMsLTQ4OT
+eyJoaXN0b3J5IjpbNTk5ODkxOTI4LDE3MDU5MTQzMjMsLTQ4OT
 I1MTUwNCwtMTc3MzQ5NDQzMl19
 -->
