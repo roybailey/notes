@@ -74,28 +74,15 @@
 * Bucket Policies = Bucket level access control
 * Access Control = File level access control
 * Create access logs for auditing Bucket/Object access
-    
 
-S3 - Encryption
+### S3 - Encryption
 
-  
+* Encryption In Transit = `https` encryption = `SSL/TLS`
+* Encryption at Rest = Encryption on storage device
 
--   Encryption In Transit
-    
+#### Server Side Encryption
 
--   https is encrypted = SSL/TLS
-    
-
--   Encryption at Rest
-    
-
--   Encryption on storage device
-    
-
--   Server Side Encryption
-    
-
--   S3 Managed Keys (encrypt/decrypt keys) SSE-S3
+* S3 Managed Keys (encrypt/decrypt keys) SSE-S3
     
 
 -   SSE = Server Side Encryption
@@ -178,6 +165,6 @@ S3 - Transfer Acceleration
 
 Cloud Front
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTAzMTk3NjksNTk5ODkxOTI4LDE3MD
-U5MTQzMjMsLTQ4OTI1MTUwNCwtMTc3MzQ5NDQzMl19
+eyJoaXN0b3J5IjpbMTAxMjA0OTg1NSw1OTk4OTE5MjgsMTcwNT
+kxNDMyMywtNDg5MjUxNTA0LC0xNzczNDk0NDMyXX0=
 -->
