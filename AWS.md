@@ -36,13 +36,12 @@
  ### S3 Consistency
 
 * Read after write consistency for PUTs of new Objects
-    
--   Eventual consistency for overwrite PUTs and DELETEs
-    
-
--   Guarantees = 99.99% availability, 99.(11x9)% durability, designed to sustain loss of 2 facilities concurrently
-    
--   Tiered storage
+* Eventual consistency for overwrite PUTs and DELETEs
+* Guarantees
+  * 99.99% availability
+  * 99.99999999999% durability (called 11 9s)
+  * Designed to sustain loss of 2 facilities concurrently
+* Tiered storage
     
 -   Lifecycle management (move to different tiers)
     
@@ -201,6 +200,6 @@ S3 - Transfer Acceleration
 
 Cloud Front
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQ1ODg1MjMsMTcwNTkxNDMyMywtND
-g5MjUxNTA0LC0xNzczNDk0NDMyXX0=
+eyJoaXN0b3J5IjpbOTk5MzUxNjI4LDE3MDU5MTQzMjMsLTQ4OT
+I1MTUwNCwtMTc3MzQ5NDQzMl19
 -->
