@@ -80,28 +80,17 @@
 * Encryption In Transit = `https` encryption = `SSL/TLS`
 * Encryption at Rest = Encryption on storage device
 
-#### Server Side Encryption
+#### Server Side Encryption (SSE)
 
-* S3 Managed Keys (encrypt/decrypt keys) SSE-S3
-    
+* `SSE-S3` = S3 Managed Keys (encrypt/decrypt keys) 
+* `SSE-KMS` = AWS Key Management Service, Managed Keys
+* `SSE-C` = SSE with Customer Provided Keys
 
--   SSE = Server Side Encryption
-    
+#### Client Side Encryption
 
--   AWS Key Management Service, Managed Keys SSE-KMS
-    
--   SSE with Customer Provided Keys SSE-C
-    
+* Encrypt at source and upload encrypted file data yourself
 
--   Client Side Encryption
-    
-
--   Encrypt at source and upload encrypted file data
-    
-
-  
-
-S3 - Versioning
+### S3 - Versioning
 
 -   Versioning on bucket cannot be undone
     
@@ -165,6 +154,6 @@ S3 - Transfer Acceleration
 
 Cloud Front
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjA0OTg1NSw1OTk4OTE5MjgsMTcwNT
-kxNDMyMywtNDg5MjUxNTA0LC0xNzczNDk0NDMyXX0=
+eyJoaXN0b3J5IjpbLTE1ODU5ODA1ODgsNTk5ODkxOTI4LDE3MD
+U5MTQzMjMsLTQ4OTI1MTUwNCwtMTc3MzQ5NDQzMl19
 -->
