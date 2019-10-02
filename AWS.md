@@ -4,7 +4,7 @@
 
 * **REGION** = area of world with 2+ Availability Zones
 * **AVAILABILITY ZONE** = Data Centre (or Data Centres that are too close to be considered alternative failover DC)
-* **EDGE LOCATION** = Caching content; Content Delivery Network (CDN) e.g. ***CloudFront***
+* **EDGE LOCATION** = Location Content is Cached; Different to Region/AZ (used by CDN)
 * **VIRTUAL PRIVATE CLOUD (VPC)** = virtual network dedicated to a single AWS account. Logically isolated from other virtual networks in the AWS cloud, providing compute resources with security and robust networking functionality.
 * **S3** = Simple Storage Solution
 * **CDN** = Content Delivery Network
@@ -126,7 +126,7 @@
 * **DISTRIBUTION** = Collection of Edge Locations
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MjgxNDQxMiw0NjcyMzczNjAsLTE1ND
-cwNzcwMDgsNTk5ODkxOTI4LDE3MDU5MTQzMjMsLTQ4OTI1MTUw
-NCwtMTc3MzQ5NDQzMl19
+eyJoaXN0b3J5IjpbLTE5NDEyMTQ4ODksNDY3MjM3MzYwLC0xNT
+Q3MDc3MDA4LDU5OTg5MTkyOCwxNzA1OTE0MzIzLC00ODkyNTE1
+MDQsLTE3NzM0OTQ0MzJdfQ==
 -->
