@@ -8,14 +8,6 @@
 * **VIRTUAL PRIVATE CLOUD (VPC)** = virtual network dedicated to a single AWS account. Logically isolated from other virtual networks in the AWS cloud, providing compute resources with security and robust networking functionality.
 * **S3** = Simple Storage Solution
 
-## AWS Account
-
-* Created account with `roybaileybiz@gmail.com` as `Professional` and with business debit card.
-* Activated MDA and captured QR-Code (used if authentication device is lost)
-* Downloaded Google Authenticator App
-* Created `roy.bailey` IAM users in `Developers` group and assigned `Administrator/FullAccess` for users in this group
-* Used **CloudWatch** to setup a billing alarm, for when costs > $20 p/month
-
 ## S3
 
 * Object based, upload files up to 5tb
@@ -128,6 +120,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDcwNzcwMDgsNTk5ODkxOTI4LDE3MD
-U5MTQzMjMsLTQ4OTI1MTUwNCwtMTc3MzQ5NDQzMl19
+eyJoaXN0b3J5IjpbNDY3MjM3MzYwLC0xNTQ3MDc3MDA4LDU5OT
+g5MTkyOCwxNzA1OTE0MzIzLC00ODkyNTE1MDQsLTE3NzM0OTQ0
+MzJdfQ==
 -->
