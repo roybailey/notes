@@ -24,6 +24,13 @@
 * Bucket = Globally Unique name
   * Gets own url e.g. `https://s3-eu-west-1.amazonaws.com/<bucketname>`
 * Uploads to S3 = 200 code = OK
+* Supports
+  * Tiered storage
+  * Lifecycle management (move to different tiers)
+  * Versioning
+  * Encryption at rest
+  * MFA for deleting objects
+  * Secure using Access Control lists and Bucket Policies
 
 ### S3 Bucket Object (aka File)
 
@@ -41,20 +48,9 @@
   * 99.99% availability
   * 99.99999999999% durability (called 11 9s)
   * Designed to sustain loss of 2 facilities concurrently
-* Tiered storage
-    
--   Lifecycle management (move to different tiers)
-    
--   Versioning
-    
--   Encryption at rest
-    
--   MFA for deleting objects
-    
--   Secure using Access Control lists and Bucket Policies
-    
--   Storage Classes
-    
+
+### S3 Storage Classes
+
 
 -   S3 Standard
     
@@ -200,6 +196,6 @@ S3 - Transfer Acceleration
 
 Cloud Front
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk5MzUxNjI4LDE3MDU5MTQzMjMsLTQ4OT
-I1MTUwNCwtMTc3MzQ5NDQzMl19
+eyJoaXN0b3J5IjpbLTIwMjcyNjExNjUsMTcwNTkxNDMyMywtND
+g5MjUxNTA0LC0xNzczNDk0NDMyXX0=
 -->
