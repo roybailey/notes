@@ -20,15 +20,10 @@
 
 * Object based, upload files up to 5tb
 * Unlimited storage, stored in buckets = folder in the cloud
-* 
-    
--   
-    
--   S3 = universal namespace
-    
--   Bucket = globally unique (gets url e.g. [https://s3-eu-west-1.amazonaws.com/](https://s3-eu-west-1.amazonaws.com/)<bucketname>)
-    
--   Upload to S3 = 200 code = OK
+* S3 is a universal global namespace
+* Bucket = Globally Unique name
+  * Gets own url e.g. `https://s3-eu-west-1.amazonaws.com/<bucketname>`
+* Uploads to S3 = 200 code = OK
     
 -   Object
     
@@ -213,6 +208,6 @@ S3 - Transfer Acceleration
 
 Cloud Front
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3OTkyNDg1MCwxNzA1OTE0MzIzLC00OD
-kyNTE1MDQsLTE3NzM0OTQ0MzJdfQ==
+eyJoaXN0b3J5IjpbLTEyMzMwNzAwMTAsMTcwNTkxNDMyMywtND
+g5MjUxNTA0LC0xNzczNDk0NDMyXX0=
 -->
