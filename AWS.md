@@ -121,14 +121,13 @@
 ### S3 - Transfer Acceleration
 
 * CloudFront Edge Network used
-    
--   Distinct URL to upload directly to edge location
-    
--   Uploads then transferred via AWS fast network to your bucket
-    
+* Distinct URL to upload directly to edge location
+* Uploads then transferred via AWS fast network to your bucket
 
-Cloud Front
+### Cloud Front
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1MTM3NTQzLDU5OTg5MTkyOCwxNzA1OT
-E0MzIzLC00ODkyNTE1MDQsLTE3NzM0OTQ0MzJdfQ==
+eyJoaXN0b3J5IjpbLTE1NDcwNzcwMDgsNTk5ODkxOTI4LDE3MD
+U5MTQzMjMsLTQ4OTI1MTUwNCwtMTc3MzQ5NDQzMl19
 -->
