@@ -6,6 +6,7 @@
 * **AVAILABILITY ZONE** = Data Centre (or Data Centres that are too close to be considered alternative failover DC)
 * **EDGE LOCATION** = Caching content; Content Delivery Network (CDN) e.g. ***CloudFront***
 * **VIRTUAL PRIVATE CLOUD (VPC)** = virtual network dedicated to a single AWS account. Logically isolated from other virtual networks in the AWS cloud, providing compute resources with security and robust networking functionality.
+* **S3** = Simple Storage Solution
 
 ## AWS Account
 
@@ -13,18 +14,15 @@
 * Activated MDA and captured QR-Code (used if authentication device is lost)
 * Downloaded Google Authenticator App
 * Created `roy.bailey` IAM users in `Developers` group and assigned `Administrator/FullAccess` for users in this group
+* Used **CloudWatch** to setup a billing alarm, for when costs > $20 p/month
 
-  
+## S3
 
-CloudWatch to setup billing alarms
-
-  
-
-S3 = Simple Storage Service
-
--   Object based, upload files up to 5tb
+* Object based, upload files up to 5tb
+* Unlimited storage, stored in buckets = folder in the cloud
+* 
     
--   Unlimited storage, stored in buckets = folder in the cloud
+-   
     
 -   S3 = universal namespace
     
@@ -215,6 +213,6 @@ S3 - Transfer Acceleration
 
 Cloud Front
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1ODQ0MzgwLDE3MDU5MTQzMjMsLTQ4OT
-I1MTUwNCwtMTc3MzQ5NDQzMl19
+eyJoaXN0b3J5IjpbMTc3OTkyNDg1MCwxNzA1OTE0MzIzLC00OD
+kyNTE1MDQsLTE3NzM0OTQ0MzJdfQ==
 -->
