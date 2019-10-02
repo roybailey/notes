@@ -9,13 +9,10 @@
 
 ## AWS Account
 
-Created account with `roybaileybiz@gmail.com` as `Professional` and with business debit card.
-
-Activated MDA and captured qr-code if authentication device is lost
-
-  
-
-IAM to setup users, groups, roles. Assign Administrator/FullAccess for superuser
+* Created account with `roybaileybiz@gmail.com` as `Professional` and with business debit card.
+* Activated MDA and captured QR-Code (used if authentication device is lost)
+* Downloaded Google Authenticator App
+* Created `roy.bailey` IAM users in `Developers` group and assigned `Administrator/FullAccess` for users in this group
 
   
 
@@ -218,6 +215,6 @@ S3 - Transfer Acceleration
 
 Cloud Front
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDM2NDk2NTIsMTcwNTkxNDMyMywtND
-g5MjUxNTA0LC0xNzczNDk0NDMyXX0=
+eyJoaXN0b3J5IjpbNzY1ODQ0MzgwLDE3MDU5MTQzMjMsLTQ4OT
+I1MTUwNCwtMTc3MzQ5NDQzMl19
 -->
