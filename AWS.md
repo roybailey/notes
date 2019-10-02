@@ -122,13 +122,20 @@
 ### Cloud Front
 
 * **CDN** = Content Delivery Network
+* **EDGE LOCATION** = Location Content is Cached; Different to Region/AZ
 * **ORIGIN** = Origin of files distributed by CDN
 * **DISTRIBUTION** = Collection of Edge Locations
 * Can be used to delivery dynamic, static, streaming, interactive content
 * Requests for content routed to nearest Edge Location for best performance
-* 
+* Web Distribution = Websites
+* RTMP = Streaming
+* Objects cached for Time To Live (TTL) - configurable
+* Caches can be cleared (charged fo
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDYxNDk2ODEsNDY3MjM3MzYwLC0xNT
-Q3MDc3MDA4LDU5OTg5MTkyOCwxNzA1OTE0MzIzLC00ODkyNTE1
-MDQsLTE3NzM0OTQ0MzJdfQ==
+eyJoaXN0b3J5IjpbMTg1NjAxNzgyMSw0NjcyMzczNjAsLTE1ND
+cwNzcwMDgsNTk5ODkxOTI4LDE3MDU5MTQzMjMsLTQ4OTI1MTUw
+NCwtMTc3MzQ5NDQzMl19
 -->
