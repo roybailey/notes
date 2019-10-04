@@ -11,6 +11,7 @@
 * **ORIGIN** = Origin of files distributed by CDN
 * **DISTRIBUTION** = Collection of Edge Locations
 * **EBS** = Elastic Block Store = Virtual Hard Disk in Cloud
+* **AMI** = Amazon Machine Image
 
 https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 
@@ -240,9 +241,9 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 * **Actions > Create Snapshot** to capture copy of disk
 * **Create Image** from snapshot instance using Hardware-assisted-virtualisation
 * **AMIs** to launch new instance from your own images
-* 
+* **Copy AMI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDMxNDc3NiwxMTEyMjEyMjU5LDM5Mz
+eyJoaXN0b3J5IjpbMTA2NTkwODQ5OCwxMTEyMjEyMjU5LDM5Mz
 QzMTk3NCw2MTU0MDI5MzEsLTE0NzU4NDQyNTcsLTEwOTA5MTA4
 NDAsMTAzNjc3NTI5NCwtNjU1MzM4MjMwLDE2NDQyMzg1NiwxMz
 Y0NTM3OTE3LC0xNjk2NTQ4Nzc5LDM0NjQwMzM4MCw0NjcyMzcz
