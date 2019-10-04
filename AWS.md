@@ -235,12 +235,14 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 
 * Wherever your Volume is will be same Availability Zone as EC2 instance (same zone for compute and disk)
 * Delete on Termination on for root volume, not for added Volumes
-* Ability to in
+* Ability to increase HDD sizes (might need to run cmd to tell OS new disk size)
+* Ability to upgrade from General Purpose SSD to Provisioned IOPS SSD
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTE1NDA2NDcsMTExMjIxMjI1OSwzOT
-M0MzE5NzQsNjE1NDAyOTMxLC0xNDc1ODQ0MjU3LC0xMDkwOTEw
-ODQwLDEwMzY3NzUyOTQsLTY1NTMzODIzMCwxNjQ0MjM4NTYsMT
-M2NDUzNzkxNywtMTY5NjU0ODc3OSwzNDY0MDMzODAsNDY3MjM3
-MzYwLC0xNTQ3MDc3MDA4LDU5OTg5MTkyOCwxNzA1OTE0MzIzLC
-00ODkyNTE1MDQsLTE3NzM0OTQ0MzJdfQ==
+eyJoaXN0b3J5IjpbMTczMDI5NTY5MywxMTEyMjEyMjU5LDM5Mz
+QzMTk3NCw2MTU0MDI5MzEsLTE0NzU4NDQyNTcsLTEwOTA5MTA4
+NDAsMTAzNjc3NTI5NCwtNjU1MzM4MjMwLDE2NDQyMzg1NiwxMz
+Y0NTM3OTE3LC0xNjk2NTQ4Nzc5LDM0NjQwMzM4MCw0NjcyMzcz
+NjAsLTE1NDcwNzcwMDgsNTk5ODkxOTI4LDE3MDU5MTQzMjMsLT
+Q4OTI1MTUwNCwtMTc3MzQ5NDQzMl19
 -->
