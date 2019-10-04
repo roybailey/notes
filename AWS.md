@@ -192,6 +192,8 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * Spot = Cheap spare capacity (bid at price you want)
 * Dedicated Hosts = EC2 servers, helps with strict licensing like Oracle
   * Single tenant 
+* EBS backed instance, default for root EBS volume to be deleted once instance is terminated
+* EBS root volumes cannot be encrypted, only additional volumes can
 
 ### EC2 - Instance Setup
 
@@ -213,9 +215,9 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5MTk3Mzg5LC0xMDkwOTEwODQwLDEwMz
-Y3NzUyOTQsLTY1NTMzODIzMCwxNjQ0MjM4NTYsMTM2NDUzNzkx
-NywtMTY5NjU0ODc3OSwzNDY0MDMzODAsNDY3MjM3MzYwLC0xNT
-Q3MDc3MDA4LDU5OTg5MTkyOCwxNzA1OTE0MzIzLC00ODkyNTE1
-MDQsLTE3NzM0OTQ0MzJdfQ==
+eyJoaXN0b3J5IjpbMjAwOTY5MDkwNSwtMTA5MDkxMDg0MCwxMD
+M2Nzc1Mjk0LC02NTUzMzgyMzAsMTY0NDIzODU2LDEzNjQ1Mzc5
+MTcsLTE2OTY1NDg3NzksMzQ2NDAzMzgwLDQ2NzIzNzM2MCwtMT
+U0NzA3NzAwOCw1OTk4OTE5MjgsMTcwNTkxNDMyMywtNDg5MjUx
+NTA0LC0xNzczNDk0NDMyXX0=
 -->
