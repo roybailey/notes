@@ -244,7 +244,7 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * snapshots of root volume should be taken when instance isn't running
   * AMIs either backed by EBS or Instance Store
     * EBS the root is instance of Amazon EBS Volume created from Amazon EBS snapshot
-    * Instance Store the root is instance of Amazon EBS Volume created from Amazon EBS snapshot
+    * Instance Store the root is instance of Instance Store Volume created from template on S3
 * Move Volume from one AZ to another
   * **Create Image** from snapshot instance using Hardware-assisted-virtualisation setting
   * **AMIs** to select and launch new instance from your own images
@@ -252,10 +252,10 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * **Copy AMI** to new Region so we can launch in new Region
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTc3MDEwNywtMTI4NDY3MTI2LDExMT
-IyMTIyNTksMzkzNDMxOTc0LDYxNTQwMjkzMSwtMTQ3NTg0NDI1
-NywtMTA5MDkxMDg0MCwxMDM2Nzc1Mjk0LC02NTUzMzgyMzAsMT
-Y0NDIzODU2LDEzNjQ1Mzc5MTcsLTE2OTY1NDg3NzksMzQ2NDAz
-MzgwLDQ2NzIzNzM2MCwtMTU0NzA3NzAwOCw1OTk4OTE5MjgsMT
-cwNTkxNDMyMywtNDg5MjUxNTA0LC0xNzczNDk0NDMyXX0=
+eyJoaXN0b3J5IjpbMjE5MjI3MjYyLC0xMjg0NjcxMjYsMTExMj
+IxMjI1OSwzOTM0MzE5NzQsNjE1NDAyOTMxLC0xNDc1ODQ0MjU3
+LC0xMDkwOTEwODQwLDEwMzY3NzUyOTQsLTY1NTMzODIzMCwxNj
+Q0MjM4NTYsMTM2NDUzNzkxNywtMTY5NjU0ODc3OSwzNDY0MDMz
+ODAsNDY3MjM3MzYwLC0xNTQ3MDc3MDA4LDU5OTg5MTkyOCwxNz
+A1OTE0MzIzLC00ODkyNTE1MDQsLTE3NzM0OTQ0MzJdfQ==
 -->
