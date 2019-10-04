@@ -215,14 +215,16 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 
 ### EC2 - Security Groups
 
-* Inbound security groups are automatically allowed Outbound
+* Security Groups are stateful e.g. Inbound security groups are automatically allowed Outbound
 * All Inbound traffic blocked by default, Security Group enables specific protocol/port
 * Changes to Security Group affective immediately
+* Security Groups cannot block specific IP addresses, Network Access Control Lists do that instead
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwMjQ1MzkxLDYxNTQwMjkzMSwtMTQ3NT
-g0NDI1NywtMTA5MDkxMDg0MCwxMDM2Nzc1Mjk0LC02NTUzMzgy
-MzAsMTY0NDIzODU2LDEzNjQ1Mzc5MTcsLTE2OTY1NDg3NzksMz
-Q2NDAzMzgwLDQ2NzIzNzM2MCwtMTU0NzA3NzAwOCw1OTk4OTE5
-MjgsMTcwNTkxNDMyMywtNDg5MjUxNTA0LC0xNzczNDk0NDMyXX
-0=
+eyJoaXN0b3J5IjpbMTg1Nzk1MDAxNCw2MTU0MDI5MzEsLTE0Nz
+U4NDQyNTcsLTEwOTA5MTA4NDAsMTAzNjc3NTI5NCwtNjU1MzM4
+MjMwLDE2NDQyMzg1NiwxMzY0NTM3OTE3LC0xNjk2NTQ4Nzc5LD
+M0NjQwMzM4MCw0NjcyMzczNjAsLTE1NDcwNzcwMDgsNTk5ODkx
+OTI4LDE3MDU5MTQzMjMsLTQ4OTI1MTUwNCwtMTc3MzQ5NDQzMl
+19
 -->
