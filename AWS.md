@@ -223,17 +223,17 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 ### EC2 - EBS
 
 * **Elastic Block Store** = Virtual Hard Disk in Cloud
-  * General Purpose = SSD = most workloads = 16000 iops
-  * Provisioned IOPS = SSD = highest performance, databases = 64000 iops
-  * Throughput Optimised = HDD = low cost, big data, warehouses = 500 iops
-  * Cold = HDD = lowest cost, file servers = 250 iops
-  * EBS Magnetic = HDD = infrequently accessed data = 40-200
+  * General Purpose SSD = most workloads = 16000 iops
+  * Provisioned IOPS SSD = highest performance, databases = 64000 iops
+  * Throughput Optimised HDD = low cost, big data, warehouses = 500 iops
+  * Cold HDD = lowest cost, file servers = 250 iops
+  * EBS Magnetic HDD = infrequently accessed data = 40-200
 * Automatically replicated within Availability Zone
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzkzMjk1ODUsNjE1NDAyOTMxLC0xND
-c1ODQ0MjU3LC0xMDkwOTEwODQwLDEwMzY3NzUyOTQsLTY1NTMz
-ODIzMCwxNjQ0MjM4NTYsMTM2NDUzNzkxNywtMTY5NjU0ODc3OS
-wzNDY0MDMzODAsNDY3MjM3MzYwLC0xNTQ3MDc3MDA4LDU5OTg5
-MTkyOCwxNzA1OTE0MzIzLC00ODkyNTE1MDQsLTE3NzM0OTQ0Mz
-JdfQ==
+eyJoaXN0b3J5IjpbMzkzNDMxOTc0LDYxNTQwMjkzMSwtMTQ3NT
+g0NDI1NywtMTA5MDkxMDg0MCwxMDM2Nzc1Mjk0LC02NTUzMzgy
+MzAsMTY0NDIzODU2LDEzNjQ1Mzc5MTcsLTE2OTY1NDg3NzksMz
+Q2NDAzMzgwLDQ2NzIzNzM2MCwtMTU0NzA3NzAwOCw1OTk4OTE5
+MjgsMTcwNTkxNDMyMywtNDg5MjUxNTA0LC0xNzczNDk0NDMyXX
+0=
 -->
