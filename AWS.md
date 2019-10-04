@@ -187,14 +187,15 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * On Demand = Fixed rate by the hour or second
   * Reserved = 1 or 3 year contract term
     * Standard = 75% off
-    * Convertible = 54% off but can be converted
+    * Convertible = 54% off but can have attributes changed (e.g. memory, cpu)
+    * Scheduled = specific spiked traffic e.g. market opens needs more login capacity for 2 hours
   * Spot = Cheap spare capacity (bid at price you want)
 * Dedicated Hosts = EC2 servers, helps with strict licensing like Oracle
 * 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzE5NTk3NiwtMTY5NjU0ODc3OSwzND
+eyJoaXN0b3J5IjpbLTk4OTIzOTM1NywtMTY5NjU0ODc3OSwzND
 Y0MDMzODAsNDY3MjM3MzYwLC0xNTQ3MDc3MDA4LDU5OTg5MTky
 OCwxNzA1OTE0MzIzLC00ODkyNTE1MDQsLTE3NzM0OTQ0MzJdfQ
 ==
