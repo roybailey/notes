@@ -11,12 +11,24 @@
 * **ORIGIN** = Origin of files distributed by CDN
 * **DISTRIBUTION** = Collection of Edge Locations
 
+https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
+
+## IAM
+
+* A global service
+* Users, Roles, Groups, Policies
+* Policies attached to Groups, Users attached to Groups inherit group policies
+* Root Account = account that first created the AWS account
+* New Users have no permission when created
+* New Users assigned Access Key ID and Secret Access Key (Viewable once)
+
+
 ## S3
 
-* Object based, upload files up to 5tb
-* Unlimited storage, stored in buckets = folder in the cloud
-* S3 is a universal global namespace
-* Bucket = Globally Unique name
+* **Object based**, upload files up to 5tb
+* Unlimited storage, stored in **Bucket** = folder in the cloud
+* S3 is a **Universal Global Namespace**
+* **Bucket = Globally Unique name**
   * Gets own url e.g. `https://s3-eu-west-1.amazonaws.com/<bucketname>`
 * Uploads to S3 = 200 code = OK
 * Supports
@@ -34,8 +46,8 @@
   * VersionID (versioning)
   * Metadata (data about the data being stored e.g. belongs to)
   * SubResources e.g. Access Control List (permissions at bucket or object), Torrents
- 
- ### S3 Consistency
+
+### S3 Consistency
 
 * Read after write consistency for PUTs of new Objects
 * Eventual consistency for overwrite PUTs and DELETEs
@@ -46,12 +58,12 @@
 
 ### S3 Storage Classes
 
-* `S3 Standard`
-* `S3 - IA` = Infrequently Accessed but fast access
-* `S3 One Zone - IA` = lower cost, Infrequently Accessed in one availability zone only
-* `S3 - Intelligent Tiering` = Designed to optimise storage movements based on Machine Learning (i.e. monitoring bucket/file real world usage to move and lower storage costs)
-* `S3 Glacier` = low cost, retrievable in minutes or hours
-* `S3 Glacier Deep Archive` = lowest cost, 12 hours retrieve time
+* **S3 Standard**
+* **S3 - IA** = Infrequently Accessed but fast access
+* **S3 One Zone - IA** = lower cost, Infrequently Accessed in one availability zone only
+* **S3 - Intelligent Tiering** = Designed to optimise storage movements based on Machine Learning (i.e. monitoring bucket/file real world usage to move and lower storage costs)
+* **S3 Glacier** = low cost, retrievable in minutes or hours
+* **S3 Glacier Deep Archive** = lowest cost, 12 hours retrieve time
 
 ### S3 Billing
 
@@ -72,14 +84,14 @@
 
 ### S3 - Encryption
 
-* Encryption In Transit = `https` encryption = `SSL/TLS`
+* Encryption In Transit = **https** encryption = **SSL/TLS**
 * Encryption at Rest = Encryption on storage device
 
 #### Server Side Encryption (SSE)
 
-* `SSE-S3` = S3 Managed Keys (encrypt/decrypt keys) 
-* `SSE-KMS` = AWS Key Management Service, Managed Keys
-* `SSE-C` = SSE with Customer Provided Keys
+* **SSE-S3** = S3 Managed Keys (encrypt/decrypt keys) 
+* **SSE-KMS** = AWS Key Management Service, Managed Keys
+* **SSE-C** = SSE with Customer Provided Keys
 
 #### Client Side Encryption
 
@@ -88,7 +100,7 @@
 ### S3 - Versioning
 
 * Versioning on bucket cannot be undone
-* Integrates with Lifecycle rules (to move things to Glacier storgate)
+* Integrates with Lifecycle rules (to move things to Glacier storage)
 * MFA Delete capability
 * Uploading new version of file overwrites public access by default
 * All versions taking up space, architectural consideration
@@ -98,12 +110,14 @@
 
 ### S3 - LifeCycle Rules
 
+* **Automates moving objects between storage tiers**
 * Applied on Bucket under Management tab
 * Create a Rule, use Tags or file prefix pattern to match Files to apply Rule to
 * Setup transitions for current and previous versions to move to other tiers (S3-IA, Glacier)
 
 ### S3 - Cross Region Replication
 
+* **Replicates to other regions**
 * Applied on Bucket under Management tab - See Replication
 * Replication requires Versioning on both source and target buckets
 * Replicate Bucket, or Files based on Tags/Prefix
@@ -115,6 +129,7 @@
 
 ### S3 - Transfer Acceleration
 
+* **Cache objects at Edge Locations**
 * CloudFront Edge Network used
 * Distinct URL to upload directly to edge location
 * Uploads then transferred via AWS fast network to your bucket
@@ -132,13 +147,47 @@
 * Objects cached for Time To Live (TTL) - configurable
 * Caches can be cleared (charged for invalidating the cache)
 
-### CloudFront Distribution
+#### CloudFront - Create Distribution
 
+* Not available on free tier
+* Takes ~1 hour to startup
+* Must be Disabled before Deleting
 
+### Snowball
+
+* **Huge disk, get data into and out of AWS**
+* Cheaper than high speed internet
+* Tamper resistant enclosures
+* 256-bit encryption
+* Trusted Platform Module (TPM)
+* Once transferred, verified and processed, Snowball appliance is wiped
+* **Snowball Edge** = compute and storage (portable AWS, can be clustered)
+* **SnowMobile** = shipping container
+
+### Storage Gateway
+
+* **Replicates your data from your own Infrastructure into AWS**
+* VM image you can download and install on your infrastructure
+* **File Gateway** = NFS & SMB
+  * Connects your Application Servers to S3
+  * Used for flat files
+* **Volume Gateway** = iSCSI = Stored Volumes & Cached Volumes
+  * Looks like a standard disk drive
+  * Stored in cloud as EBS snapshots
+  * *Stored locally, async backed up as EBS snapshots in AWS*
+  * Cached volumes keep current data only in on-premise storage
+* **Tape Gateway** archiving your data in the cloud
+  * Uses tape based infrastructure
+
+## EC2
+
+* **Elastic Compute in the Cloud**
+* Allows you to scale up and down as required
+* 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2NDAzMzgwLDQ2NzIzNzM2MCwtMTU0Nz
-A3NzAwOCw1OTk4OTE5MjgsMTcwNTkxNDMyMywtNDg5MjUxNTA0
-LC0xNzczNDk0NDMyXX0=
+eyJoaXN0b3J5IjpbLTE2OTY1NDg3NzksMzQ2NDAzMzgwLDQ2Nz
+IzNzM2MCwtMTU0NzA3NzAwOCw1OTk4OTE5MjgsMTcwNTkxNDMy
+MywtNDg5MjUxNTA0LC0xNzczNDk0NDMyXX0=
 -->
