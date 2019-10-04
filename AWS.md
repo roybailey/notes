@@ -192,12 +192,18 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * Spot = Cheap spare capacity (bid at price you want)
 * Dedicated Hosts = EC2 servers, helps with strict licensing like Oracle
   * Single tenant 
-* 
+
+### Setting up Instance
+
+* Choose VM image
+* Protect against Termination
+* Asymmetric encryption
+  * 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDUzNzkxNywtMTY5NjU0ODc3OSwzND
-Y0MDMzODAsNDY3MjM3MzYwLC0xNTQ3MDc3MDA4LDU5OTg5MTky
-OCwxNzA1OTE0MzIzLC00ODkyNTE1MDQsLTE3NzM0OTQ0MzJdfQ
-==
+eyJoaXN0b3J5IjpbMzAyODAzMDIwLDEzNjQ1Mzc5MTcsLTE2OT
+Y1NDg3NzksMzQ2NDAzMzgwLDQ2NzIzNzM2MCwtMTU0NzA3NzAw
+OCw1OTk4OTE5MjgsMTcwNTkxNDMyMywtNDg5MjUxNTA0LC0xNz
+czNDk0NDMyXX0=
 -->
