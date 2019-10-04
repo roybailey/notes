@@ -206,11 +206,16 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 * `ssh ec2-user@52.90.162.42 -i MyUSE1KP.pem` to login to running EC2 instance (check port 22 isn't blocked)
 * `sudo su` to change from `ec2-user` to `root` user
 * `yum update -y` to check and download updates 
+* `yum install httpd` to install apache
+* `service httpd start` to start apache (website home folder `/var/www/html`)
+* `chkconfig on` to make sure apache is restarted if evert the EC2 server is restarted
+* 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjc3NTI5NCwtNjU1MzM4MjMwLDE2ND
-QyMzg1NiwxMzY0NTM3OTE3LC0xNjk2NTQ4Nzc5LDM0NjQwMzM4
-MCw0NjcyMzczNjAsLTE1NDcwNzcwMDgsNTk5ODkxOTI4LDE3MD
-U5MTQzMjMsLTQ4OTI1MTUwNCwtMTc3MzQ5NDQzMl19
+eyJoaXN0b3J5IjpbMTU0NDc4Mzg5MywxMDM2Nzc1Mjk0LC02NT
+UzMzgyMzAsMTY0NDIzODU2LDEzNjQ1Mzc5MTcsLTE2OTY1NDg3
+NzksMzQ2NDAzMzgwLDQ2NzIzNzM2MCwtMTU0NzA3NzAwOCw1OT
+k4OTE5MjgsMTcwNTkxNDMyMywtNDg5MjUxNTA0LC0xNzczNDk0
+NDMyXX0=
 -->
