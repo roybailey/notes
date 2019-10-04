@@ -242,6 +242,9 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * stored on S3
   * incremental snapshots are stored as deltas only to save space
   * snapshots of root volume should be taken when instance isn't running
+  * AMIs either backed by EBS or Instance Store
+    * EBS the root is instance of Amazon EBS Volume created from Amazon EBS snapshot
+    * Instance Store the root is instance of Amazon EBS Volume created from Amazon EBS snapshot
 * Move Volume from one AZ to another
   * **Create Image** from snapshot instance using Hardware-assisted-virtualisation setting
   * **AMIs** to select and launch new instance from your own images
@@ -249,10 +252,10 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * **Copy AMI** to new Region so we can launch in new Region
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQ2NzEyNiwxMTEyMjEyMjU5LDM5Mz
-QzMTk3NCw2MTU0MDI5MzEsLTE0NzU4NDQyNTcsLTEwOTA5MTA4
-NDAsMTAzNjc3NTI5NCwtNjU1MzM4MjMwLDE2NDQyMzg1NiwxMz
-Y0NTM3OTE3LC0xNjk2NTQ4Nzc5LDM0NjQwMzM4MCw0NjcyMzcz
-NjAsLTE1NDcwNzcwMDgsNTk5ODkxOTI4LDE3MDU5MTQzMjMsLT
-Q4OTI1MTUwNCwtMTc3MzQ5NDQzMl19
+eyJoaXN0b3J5IjpbMTM3NTc3MDEwNywtMTI4NDY3MTI2LDExMT
+IyMTIyNTksMzkzNDMxOTc0LDYxNTQwMjkzMSwtMTQ3NTg0NDI1
+NywtMTA5MDkxMDg0MCwxMDM2Nzc1Mjk0LC02NTUzMzgyMzAsMT
+Y0NDIzODU2LDEzNjQ1Mzc5MTcsLTE2OTY1NDg3NzksMzQ2NDAz
+MzgwLDQ2NzIzNzM2MCwtMTU0NzA3NzAwOCw1OTk4OTE5MjgsMT
+cwNTkxNDMyMywtNDg5MjUxNTA0LC0xNzczNDk0NDMyXX0=
 -->
