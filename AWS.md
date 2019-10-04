@@ -238,16 +238,16 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 * **Delete on Termination** on for root volume, not for added Volumes
 * Ability to increase HDD sizes (might need to run cmd to tell OS new disk size)
 * Ability to upgrade from General Purpose SSD to Provisioned IOPS SSD
-* **Actions > Create Snapshot** to capture copy of disk
+* **Actions > Create Snapshot** to capture copy of disk, stored on S3, 
 * **Create Image** from snapshot instance using Hardware-assisted-virtualisation
 * **AMIs** to launch new instance from your own images
 * **Copy AMI** to new Region so we can launch in new Region
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTYyMjYwNSwxMTEyMjEyMjU5LDM5Mz
-QzMTk3NCw2MTU0MDI5MzEsLTE0NzU4NDQyNTcsLTEwOTA5MTA4
-NDAsMTAzNjc3NTI5NCwtNjU1MzM4MjMwLDE2NDQyMzg1NiwxMz
-Y0NTM3OTE3LC0xNjk2NTQ4Nzc5LDM0NjQwMzM4MCw0NjcyMzcz
-NjAsLTE1NDcwNzcwMDgsNTk5ODkxOTI4LDE3MDU5MTQzMjMsLT
-Q4OTI1MTUwNCwtMTc3MzQ5NDQzMl19
+eyJoaXN0b3J5IjpbMTIzOTgwNjcxLDExMTIyMTIyNTksMzkzND
+MxOTc0LDYxNTQwMjkzMSwtMTQ3NTg0NDI1NywtMTA5MDkxMDg0
+MCwxMDM2Nzc1Mjk0LC02NTUzMzgyMzAsMTY0NDIzODU2LDEzNj
+Q1Mzc5MTcsLTE2OTY1NDg3NzksMzQ2NDAzMzgwLDQ2NzIzNzM2
+MCwtMTU0NzA3NzAwOCw1OTk4OTE5MjgsMTcwNTkxNDMyMywtND
+g5MjUxNTA0LC0xNzczNDk0NDMyXX0=
 -->
