@@ -199,12 +199,12 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 * Protect against Termination
 * Asymmetric encryption
   * Public Key = Padlock = Goes on EC2 Instance
-  * Private Key = Padlock key itself = Locally on your machine, used to ssh in
+  * Private Key = Padlock key itself = Locally on your machine, used to ssh into instance
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTYzMDAxOCwxMzY0NTM3OTE3LC0xNj
-k2NTQ4Nzc5LDM0NjQwMzM4MCw0NjcyMzczNjAsLTE1NDcwNzcw
-MDgsNTk5ODkxOTI4LDE3MDU5MTQzMjMsLTQ4OTI1MTUwNCwtMT
-c3MzQ5NDQzMl19
+eyJoaXN0b3J5IjpbMTY0NDIzODU2LDEzNjQ1Mzc5MTcsLTE2OT
+Y1NDg3NzksMzQ2NDAzMzgwLDQ2NzIzNzM2MCwtMTU0NzA3NzAw
+OCw1OTk4OTE5MjgsMTcwNTkxNDMyMywtNDg5MjUxNTA0LC0xNz
+czNDk0NDMyXX0=
 -->
