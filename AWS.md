@@ -193,7 +193,7 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 * Dedicated Hosts = EC2 servers, helps with strict licensing like Oracle
   * Single tenant 
 
-### Setting up Instance
+### EC2 - Instance Setup
 
 * Choose VM image
 * Protect against Termination
@@ -209,13 +209,12 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 * `yum install httpd` to install apache
 * `service httpd start` to start apache (website home folder `/var/www/html`)
 * `chkconfig on` to make sure apache is restarted if evert the EC2 server is restarted
-* 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDc4Mzg5MywxMDM2Nzc1Mjk0LC02NT
-UzMzgyMzAsMTY0NDIzODU2LDEzNjQ1Mzc5MTcsLTE2OTY1NDg3
-NzksMzQ2NDAzMzgwLDQ2NzIzNzM2MCwtMTU0NzA3NzAwOCw1OT
-k4OTE5MjgsMTcwNTkxNDMyMywtNDg5MjUxNTA0LC0xNzczNDk0
-NDMyXX0=
+eyJoaXN0b3J5IjpbLTEwOTA5MTA4NDAsMTAzNjc3NTI5NCwtNj
+U1MzM4MjMwLDE2NDQyMzg1NiwxMzY0NTM3OTE3LC0xNjk2NTQ4
+Nzc5LDM0NjQwMzM4MCw0NjcyMzczNjAsLTE1NDcwNzcwMDgsNT
+k5ODkxOTI4LDE3MDU5MTQzMjMsLTQ4OTI1MTUwNCwtMTc3MzQ5
+NDQzMl19
 -->
