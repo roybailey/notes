@@ -204,12 +204,13 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * Download `MyUSE1KP.pem`
   * `chmod 400 MyUSE1KP.pem` to restrict to read only
 * `ssh ec2-user@52.90.162.42 -i MyUSE1KP.pem` to login to running EC2 instance (check port 22 isn't blocked)
-* `sudo su` to change from `ec2-user` to `root` user 
+* `sudo su` to change from `ec2-user` to `root` user
+* `yum update -y` to check and download updates 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTMzODIzMCwxNjQ0MjM4NTYsMTM2ND
-UzNzkxNywtMTY5NjU0ODc3OSwzNDY0MDMzODAsNDY3MjM3MzYw
-LC0xNTQ3MDc3MDA4LDU5OTg5MTkyOCwxNzA1OTE0MzIzLC00OD
-kyNTE1MDQsLTE3NzM0OTQ0MzJdfQ==
+eyJoaXN0b3J5IjpbMTAzNjc3NTI5NCwtNjU1MzM4MjMwLDE2ND
+QyMzg1NiwxMzY0NTM3OTE3LC0xNjk2NTQ4Nzc5LDM0NjQwMzM4
+MCw0NjcyMzczNjAsLTE1NDcwNzcwMDgsNTk5ODkxOTI4LDE3MD
+U5MTQzMjMsLTQ4OTI1MTUwNCwtMTc3MzQ5NDQzMl19
 -->
