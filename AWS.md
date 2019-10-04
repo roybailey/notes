@@ -251,10 +251,13 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * **AMIs** to select and launch new instance from your own images
 * Move Volume from one Region to another
   * **Copy AMI** to new Region so we can launch in new Region
-* Encrypting 
+* Encrypting volumes
+  * Take snapshot
+  * Copy snapshot and add encryption+key
+  * Launch new instance from encrypted volume
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MzQ2NjY3NCwtMjAwNDg2MTU2NSwyMT
+eyJoaXN0b3J5IjpbLTY2MzA1ODU0OCwtMjAwNDg2MTU2NSwyMT
 kyMjcyNjIsLTEyODQ2NzEyNiwxMTEyMjEyMjU5LDM5MzQzMTk3
 NCw2MTU0MDI5MzEsLTE0NzU4NDQyNTcsLTEwOTA5MTA4NDAsMT
 AzNjc3NTI5NCwtNjU1MzM4MjMwLDE2NDQyMzg1NiwxMzY0NTM3
