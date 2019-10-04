@@ -185,12 +185,14 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 * Allows you to scale up and down as required
 * Pricing
   * On Demand = Fixed rate by the hour or second
-  * Reserved = 1 or 3 year term
+  * Reserved = 1 or 3 year contract term
+  * Spot = Cheap spare capacity (bid at price you want)
+* Dedicated Hosts = EC2 servers, helps with strict licensing like Oracle
+* 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTcwNDQ0NjgsLTE2OTY1NDg3NzksMz
-Q2NDAzMzgwLDQ2NzIzNzM2MCwtMTU0NzA3NzAwOCw1OTk4OTE5
-MjgsMTcwNTkxNDMyMywtNDg5MjUxNTA0LC0xNzczNDk0NDMyXX
-0=
+eyJoaXN0b3J5IjpbOTAyOTM1MTUsLTE2OTY1NDg3NzksMzQ2ND
+AzMzgwLDQ2NzIzNzM2MCwtMTU0NzA3NzAwOCw1OTk4OTE5Mjgs
+MTcwNTkxNDMyMywtNDg5MjUxNTA0LC0xNzczNDk0NDMyXX0=
 -->
