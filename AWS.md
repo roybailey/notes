@@ -10,6 +10,7 @@
 * **CDN** = Content Delivery Network
 * **ORIGIN** = Origin of files distributed by CDN
 * **DISTRIBUTION** = Collection of Edge Locations
+* **EBS** = Elastic Block Store = Virtual Hard Disk in Cloud
 
 https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 
@@ -229,11 +230,13 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * Cold HDD = lowest cost, file servers = 250 iops
   * EBS Magnetic HDD = infrequently accessed data = 40-200
 * Automatically replicated within Availability Zone
+
+### EC2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzNDMxOTc0LDYxNTQwMjkzMSwtMTQ3NT
-g0NDI1NywtMTA5MDkxMDg0MCwxMDM2Nzc1Mjk0LC02NTUzMzgy
-MzAsMTY0NDIzODU2LDEzNjQ1Mzc5MTcsLTE2OTY1NDg3NzksMz
-Q2NDAzMzgwLDQ2NzIzNzM2MCwtMTU0NzA3NzAwOCw1OTk4OTE5
-MjgsMTcwNTkxNDMyMywtNDg5MjUxNTA0LC0xNzczNDk0NDMyXX
-0=
+eyJoaXN0b3J5IjpbLTk4NDg4OTgxNSwzOTM0MzE5NzQsNjE1ND
+AyOTMxLC0xNDc1ODQ0MjU3LC0xMDkwOTEwODQwLDEwMzY3NzUy
+OTQsLTY1NTMzODIzMCwxNjQ0MjM4NTYsMTM2NDUzNzkxNywtMT
+Y5NjU0ODc3OSwzNDY0MDMzODAsNDY3MjM3MzYwLC0xNTQ3MDc3
+MDA4LDU5OTg5MTkyOCwxNzA1OTE0MzIzLC00ODkyNTE1MDQsLT
+E3NzM0OTQ0MzJdfQ==
 -->
