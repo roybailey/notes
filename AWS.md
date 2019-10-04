@@ -231,9 +231,11 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * EBS Magnetic HDD = infrequently accessed data = 40-200
 * Automatically replicated within Availability Zone
 
-### EC2
+#### EBS Volume & Snapshots
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDg4OTgxNSwzOTM0MzE5NzQsNjE1ND
+eyJoaXN0b3J5IjpbMTExMjIxMjI1OSwzOTM0MzE5NzQsNjE1ND
 AyOTMxLC0xNDc1ODQ0MjU3LC0xMDkwOTEwODQwLDEwMzY3NzUy
 OTQsLTY1NTMzODIzMCwxNjQ0MjM4NTYsMTM2NDUzNzkxNywtMT
 Y5NjU0ODc3OSwzNDY0MDMzODAsNDY3MjM3MzYwLC0xNTQ3MDc3
