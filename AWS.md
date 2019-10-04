@@ -223,12 +223,12 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 ### EC2 - EBS
 
 * **Elastic Block Store** = Virtual Hard Disk in Cloud
-  * General Purpose = SSD
-  * Provisioned IOPS = SSD
-  * 
+  * General Purpose = SSD = most workloads = 16000 iops
+  * Provisioned IOPS = SSD = highest performance, databases = 64000 iops
+  * Throughput Optimised = HDD = low cost, big data, warehou
 * Automatically replicated within Availability Zone
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5OTMyMTA2LDYxNTQwMjkzMSwtMTQ3NT
+eyJoaXN0b3J5IjpbMzU4MzE1MTM4LDYxNTQwMjkzMSwtMTQ3NT
 g0NDI1NywtMTA5MDkxMDg0MCwxMDM2Nzc1Mjk0LC02NTUzMzgy
 MzAsMTY0NDIzODU2LDEzNjQ1Mzc5MTcsLTE2OTY1NDg3NzksMz
 Q2NDAzMzgwLDQ2NzIzNzM2MCwtMTU0NzA3NzAwOCw1OTk4OTE5
