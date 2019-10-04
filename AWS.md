@@ -213,11 +213,13 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 * `service httpd start` to start apache (website home folder `/var/www/html`)
 * `chkconfig on` to make sure apache is restarted if evert the EC2 server is restarted
 
+### EC2 - Security Groups
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwOTY5MDkwNSwtMTA5MDkxMDg0MCwxMD
-M2Nzc1Mjk0LC02NTUzMzgyMzAsMTY0NDIzODU2LDEzNjQ1Mzc5
-MTcsLTE2OTY1NDg3NzksMzQ2NDAzMzgwLDQ2NzIzNzM2MCwtMT
-U0NzA3NzAwOCw1OTk4OTE5MjgsMTcwNTkxNDMyMywtNDg5MjUx
-NTA0LC0xNzczNDk0NDMyXX0=
+eyJoaXN0b3J5IjpbLTE0NzU4NDQyNTcsLTEwOTA5MTA4NDAsMT
+AzNjc3NTI5NCwtNjU1MzM4MjMwLDE2NDQyMzg1NiwxMzY0NTM3
+OTE3LC0xNjk2NTQ4Nzc5LDM0NjQwMzM4MCw0NjcyMzczNjAsLT
+E1NDcwNzcwMDgsNTk5ODkxOTI4LDE3MDU5MTQzMjMsLTQ4OTI1
+MTUwNCwtMTc3MzQ5NDQzMl19
 -->
