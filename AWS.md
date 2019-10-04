@@ -233,16 +233,17 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 
 #### EBS Volume & Snapshots
 
-* Wherever your Volume is will be same Availability Zone as EC2 instance (same zone for compute and disk)
+* Wherever your **Volume is will be same Availability Zone as EC2 instance** (same zone for compute and disk)
 * **Delete on Termination** on for root volume, not for added Volumes
 * Ability to increase HDD sizes (might need to run cmd to tell OS new disk size)
 * Ability to upgrade from General Purpose SSD to Provisioned IOPS SSD
 * **Actions > Create Snapshot** to capture copy of disk
+* **Create I
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyOTUyNjk5OCwxMTEyMjEyMjU5LDM5Mz
-QzMTk3NCw2MTU0MDI5MzEsLTE0NzU4NDQyNTcsLTEwOTA5MTA4
-NDAsMTAzNjc3NTI5NCwtNjU1MzM4MjMwLDE2NDQyMzg1NiwxMz
-Y0NTM3OTE3LC0xNjk2NTQ4Nzc5LDM0NjQwMzM4MCw0NjcyMzcz
-NjAsLTE1NDcwNzcwMDgsNTk5ODkxOTI4LDE3MDU5MTQzMjMsLT
-Q4OTI1MTUwNCwtMTc3MzQ5NDQzMl19
+eyJoaXN0b3J5IjpbMjAzOTc4ODUsMTExMjIxMjI1OSwzOTM0Mz
+E5NzQsNjE1NDAyOTMxLC0xNDc1ODQ0MjU3LC0xMDkwOTEwODQw
+LDEwMzY3NzUyOTQsLTY1NTMzODIzMCwxNjQ0MjM4NTYsMTM2ND
+UzNzkxNywtMTY5NjU0ODc3OSwzNDY0MDMzODAsNDY3MjM3MzYw
+LC0xNTQ3MDc3MDA4LDU5OTg5MTkyOCwxNzA1OTE0MzIzLC00OD
+kyNTE1MDQsLTE3NzM0OTQ0MzJdfQ==
 -->
