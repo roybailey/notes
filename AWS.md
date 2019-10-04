@@ -216,9 +216,9 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 ### EC2 - Security Groups
 
 * Inbound security groups are automatically allowed Outbound
-* 
+* Everything is blocked by default, security group enables specific protocal/port
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk5MDMwNzQ5LC0xNDc1ODQ0MjU3LC0xMD
+eyJoaXN0b3J5IjpbNjE1NDAyOTMxLC0xNDc1ODQ0MjU3LC0xMD
 kwOTEwODQwLDEwMzY3NzUyOTQsLTY1NTMzODIzMCwxNjQ0MjM4
 NTYsMTM2NDUzNzkxNywtMTY5NjU0ODc3OSwzNDY0MDMzODAsND
 Y3MjM3MzYwLC0xNTQ3MDc3MDA4LDU5OTg5MTkyOCwxNzA1OTE0
