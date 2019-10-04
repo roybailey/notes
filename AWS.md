@@ -186,13 +186,16 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 * Pricing
   * On Demand = Fixed rate by the hour or second
   * Reserved = 1 or 3 year contract term
+    * Standard = 75% off
+    * Convertible = 54% off but can be converted
   * Spot = Cheap spare capacity (bid at price you want)
 * Dedicated Hosts = EC2 servers, helps with strict licensing like Oracle
 * 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyOTM1MTUsLTE2OTY1NDg3NzksMzQ2ND
-AzMzgwLDQ2NzIzNzM2MCwtMTU0NzA3NzAwOCw1OTk4OTE5Mjgs
-MTcwNTkxNDMyMywtNDg5MjUxNTA0LC0xNzczNDk0NDMyXX0=
+eyJoaXN0b3J5IjpbLTMwNzE5NTk3NiwtMTY5NjU0ODc3OSwzND
+Y0MDMzODAsNDY3MjM3MzYwLC0xNTQ3MDc3MDA4LDU5OTg5MTky
+OCwxNzA1OTE0MzIzLC00ODkyNTE1MDQsLTE3NzM0OTQ0MzJdfQ
+==
 -->
