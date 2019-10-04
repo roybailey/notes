@@ -197,6 +197,7 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 
 * Choose VM image
 * Protect against Termination
+* Add volumes (only extra volumes can be encrypted)
 * Asymmetric encryption
   * Public Key = Padlock = Goes on EC2 Instance
   * Private Key = Padlock key itself = Locally on your machine, used to ssh into instance
@@ -212,9 +213,9 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTA5MTA4NDAsMTAzNjc3NTI5NCwtNj
-U1MzM4MjMwLDE2NDQyMzg1NiwxMzY0NTM3OTE3LC0xNjk2NTQ4
-Nzc5LDM0NjQwMzM4MCw0NjcyMzczNjAsLTE1NDcwNzcwMDgsNT
-k5ODkxOTI4LDE3MDU5MTQzMjMsLTQ4OTI1MTUwNCwtMTc3MzQ5
-NDQzMl19
+eyJoaXN0b3J5IjpbNjc5MTk3Mzg5LC0xMDkwOTEwODQwLDEwMz
+Y3NzUyOTQsLTY1NTMzODIzMCwxNjQ0MjM4NTYsMTM2NDUzNzkx
+NywtMTY5NjU0ODc3OSwzNDY0MDMzODAsNDY3MjM3MzYwLC0xNT
+Q3MDc3MDA4LDU5OTg5MTkyOCwxNzA1OTE0MzIzLC00ODkyNTE1
+MDQsLTE3NzM0OTQ0MzJdfQ==
 -->
