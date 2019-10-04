@@ -200,11 +200,14 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 * Asymmetric encryption
   * Public Key = Padlock = Goes on EC2 Instance
   * Private Key = Padlock key itself = Locally on your machine, used to ssh into instance
+  * Create public/private key e.g. `MyUSE1KP` for My US East 1st instance Key Pair
+  * Download `MyUSE1KP.pem`
+  * `chmod 400 MyUSE1KP.pem` to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDIzODU2LDEzNjQ1Mzc5MTcsLTE2OT
-Y1NDg3NzksMzQ2NDAzMzgwLDQ2NzIzNzM2MCwtMTU0NzA3NzAw
-OCw1OTk4OTE5MjgsMTcwNTkxNDMyMywtNDg5MjUxNTA0LC0xNz
-czNDk0NDMyXX0=
+eyJoaXN0b3J5IjpbMTIxODE4MDk5OSwxNjQ0MjM4NTYsMTM2ND
+UzNzkxNywtMTY5NjU0ODc3OSwzNDY0MDMzODAsNDY3MjM3MzYw
+LC0xNTQ3MDc3MDA4LDU5OTg5MTkyOCwxNzA1OTE0MzIzLC00OD
+kyNTE1MDQsLTE3NzM0OTQ0MzJdfQ==
 -->
