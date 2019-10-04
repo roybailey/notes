@@ -251,13 +251,14 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * **AMIs** to select and launch new instance from your own images
 * Move Volume from one Region to another
   * **Copy AMI** to new Region so we can launch in new Region
+* Encrypting 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDQ4NjE1NjUsMjE5MjI3MjYyLC0xMj
-g0NjcxMjYsMTExMjIxMjI1OSwzOTM0MzE5NzQsNjE1NDAyOTMx
-LC0xNDc1ODQ0MjU3LC0xMDkwOTEwODQwLDEwMzY3NzUyOTQsLT
-Y1NTMzODIzMCwxNjQ0MjM4NTYsMTM2NDUzNzkxNywtMTY5NjU0
-ODc3OSwzNDY0MDMzODAsNDY3MjM3MzYwLC0xNTQ3MDc3MDA4LD
-U5OTg5MTkyOCwxNzA1OTE0MzIzLC00ODkyNTE1MDQsLTE3NzM0
-OTQ0MzJdfQ==
+eyJoaXN0b3J5IjpbMjE0MzQ2NjY3NCwtMjAwNDg2MTU2NSwyMT
+kyMjcyNjIsLTEyODQ2NzEyNiwxMTEyMjEyMjU5LDM5MzQzMTk3
+NCw2MTU0MDI5MzEsLTE0NzU4NDQyNTcsLTEwOTA5MTA4NDAsMT
+AzNjc3NTI5NCwtNjU1MzM4MjMwLDE2NDQyMzg1NiwxMzY0NTM3
+OTE3LC0xNjk2NTQ4Nzc5LDM0NjQwMzM4MCw0NjcyMzczNjAsLT
+E1NDcwNzcwMDgsNTk5ODkxOTI4LDE3MDU5MTQzMjMsLTQ4OTI1
+MTUwNF19
 -->
