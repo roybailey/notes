@@ -281,13 +281,17 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 ## AWS Command Line
 
 * Commands once ssh onto box `aws <service> <command>`
-* To run a command `aws configure` and paste in Access Key ID and Sectet Ac
+* To run a command `aws configure`
+  * paste in *Access Key ID* and *Secret Access Key* from aws user account setup
+  * Default region e.g. `us-east-1`
+  * Default output format `None`
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODYxOTA5LC0xMjM0MjQxMTg1LDE4Nj
-c0ODgwNTAsLTY2MzA1ODU0OCwtMjAwNDg2MTU2NSwyMTkyMjcy
-NjIsLTEyODQ2NzEyNiwxMTEyMjEyMjU5LDM5MzQzMTk3NCw2MT
-U0MDI5MzEsLTE0NzU4NDQyNTcsLTEwOTA5MTA4NDAsMTAzNjc3
-NTI5NCwtNjU1MzM4MjMwLDE2NDQyMzg1NiwxMzY0NTM3OTE3LC
-0xNjk2NTQ4Nzc5LDM0NjQwMzM4MCw0NjcyMzczNjAsLTE1NDcw
-NzcwMDhdfQ==
+eyJoaXN0b3J5IjpbLTkxMzI5ODc0NywtMTIzNDI0MTE4NSwxOD
+Y3NDg4MDUwLC02NjMwNTg1NDgsLTIwMDQ4NjE1NjUsMjE5MjI3
+MjYyLC0xMjg0NjcxMjYsMTExMjIxMjI1OSwzOTM0MzE5NzQsNj
+E1NDAyOTMxLC0xNDc1ODQ0MjU3LC0xMDkwOTEwODQwLDEwMzY3
+NzUyOTQsLTY1NTMzODIzMCwxNjQ0MjM4NTYsMTM2NDUzNzkxNy
+wtMTY5NjU0ODc3OSwzNDY0MDMzODAsNDY3MjM3MzYwLC0xNTQ3
+MDc3MDA4XX0=
 -->
