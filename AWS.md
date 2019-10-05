@@ -259,13 +259,21 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 ## CloudWatch
 
 * ***Performance Monitoring service to monitor AWS resources and applications***
-* 
+* Compute
+  * EC2 instances
+  * Autoscaling Groups
+  * Elastic Load Balancers
+  * Route53 Health Checks
+* Storage & Content Delivery
+  * EBS Volumes
+  * Storage gateways
+  * CloudFront
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2Mzg3NTg0LC02NjMwNTg1NDgsLTIwMD
-Q4NjE1NjUsMjE5MjI3MjYyLC0xMjg0NjcxMjYsMTExMjIxMjI1
-OSwzOTM0MzE5NzQsNjE1NDAyOTMxLC0xNDc1ODQ0MjU3LC0xMD
-kwOTEwODQwLDEwMzY3NzUyOTQsLTY1NTMzODIzMCwxNjQ0MjM4
-NTYsMTM2NDUzNzkxNywtMTY5NjU0ODc3OSwzNDY0MDMzODAsND
-Y3MjM3MzYwLC0xNTQ3MDc3MDA4LDU5OTg5MTkyOCwxNzA1OTE0
-MzIzXX0=
+eyJoaXN0b3J5IjpbLTUwNjA1ODUyNCwtNjYzMDU4NTQ4LC0yMD
+A0ODYxNTY1LDIxOTIyNzI2MiwtMTI4NDY3MTI2LDExMTIyMTIy
+NTksMzkzNDMxOTc0LDYxNTQwMjkzMSwtMTQ3NTg0NDI1NywtMT
+A5MDkxMDg0MCwxMDM2Nzc1Mjk0LC02NTUzMzgyMzAsMTY0NDIz
+ODU2LDEzNjQ1Mzc5MTcsLTE2OTY1NDg3NzksMzQ2NDAzMzgwLD
+Q2NzIzNzM2MCwtMTU0NzA3NzAwOCw1OTk4OTE5MjgsMTcwNTkx
+NDMyM119
 -->
