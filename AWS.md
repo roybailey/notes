@@ -261,6 +261,9 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 * ***Performance Monitoring service to monitor AWS resources and applications***
 * Compute
   * EC2 instances
+    * CPU
+    * Disk
+    * Network
   * Autoscaling Groups
   * Elastic Load Balancers
   * Route53 Health Checks
@@ -268,12 +271,17 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * EBS Volumes
   * Storage gateways
   * CloudFront
+
+## CloudTrail
+
+* Records management console actions and API calls
+* Iden
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjA1ODUyNCwtNjYzMDU4NTQ4LC0yMD
-A0ODYxNTY1LDIxOTIyNzI2MiwtMTI4NDY3MTI2LDExMTIyMTIy
-NTksMzkzNDMxOTc0LDYxNTQwMjkzMSwtMTQ3NTg0NDI1NywtMT
-A5MDkxMDg0MCwxMDM2Nzc1Mjk0LC02NTUzMzgyMzAsMTY0NDIz
-ODU2LDEzNjQ1Mzc5MTcsLTE2OTY1NDg3NzksMzQ2NDAzMzgwLD
-Q2NzIzNzM2MCwtMTU0NzA3NzAwOCw1OTk4OTE5MjgsMTcwNTkx
-NDMyM119
+eyJoaXN0b3J5IjpbLTEzNzE1MDA4MjksLTY2MzA1ODU0OCwtMj
+AwNDg2MTU2NSwyMTkyMjcyNjIsLTEyODQ2NzEyNiwxMTEyMjEy
+MjU5LDM5MzQzMTk3NCw2MTU0MDI5MzEsLTE0NzU4NDQyNTcsLT
+EwOTA5MTA4NDAsMTAzNjc3NTI5NCwtNjU1MzM4MjMwLDE2NDQy
+Mzg1NiwxMzY0NTM3OTE3LC0xNjk2NTQ4Nzc5LDM0NjQwMzM4MC
+w0NjcyMzczNjAsLTE1NDcwNzcwMDgsNTk5ODkxOTI4LDE3MDU5
+MTQzMjNdfQ==
 -->
