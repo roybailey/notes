@@ -270,19 +270,21 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 * Storage & Content Delivery
   * EBS Volumes
   * Storage gateways
-* Monitors events every 5 minuted by default, 
+* Monitors events every 5 minuted by default, detailed monitoring setting = 1 minute (not for free tier)
 * Setup alarms and and trigger notifications
 
 ## CloudTrail - CCTV on AWS Users activity - Auditing
 
 * ***Records management console actions and API calls***
 * Identify users/accounts calling AWS, source IP, timestamps
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzMzMzgsMTg2NzQ4ODA1MCwtNjYzMD
-U4NTQ4LC0yMDA0ODYxNTY1LDIxOTIyNzI2MiwtMTI4NDY3MTI2
-LDExMTIyMTIyNTksMzkzNDMxOTc0LDYxNTQwMjkzMSwtMTQ3NT
-g0NDI1NywtMTA5MDkxMDg0MCwxMDM2Nzc1Mjk0LC02NTUzMzgy
-MzAsMTY0NDIzODU2LDEzNjQ1Mzc5MTcsLTE2OTY1NDg3NzksMz
-Q2NDAzMzgwLDQ2NzIzNzM2MCwtMTU0NzA3NzAwOCw1OTk4OTE5
-MjhdfQ==
+eyJoaXN0b3J5IjpbLTEyMzQyNDExODUsMTg2NzQ4ODA1MCwtNj
+YzMDU4NTQ4LC0yMDA0ODYxNTY1LDIxOTIyNzI2MiwtMTI4NDY3
+MTI2LDExMTIyMTIyNTksMzkzNDMxOTc0LDYxNTQwMjkzMSwtMT
+Q3NTg0NDI1NywtMTA5MDkxMDg0MCwxMDM2Nzc1Mjk0LC02NTUz
+MzgyMzAsMTY0NDIzODU2LDEzNjQ1Mzc5MTcsLTE2OTY1NDg3Nz
+ksMzQ2NDAzMzgwLDQ2NzIzNzM2MCwtMTU0NzA3NzAwOCw1OTk4
+OTE5MjhdfQ==
 -->
