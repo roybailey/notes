@@ -256,12 +256,16 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * Copy snapshot and add encryption+key
   * Launch new instance from encrypted volume
 
+## CloudWatch
+
+* ***Performance Monitoring service to monitor AWS resources and applications***
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MzA1ODU0OCwtMjAwNDg2MTU2NSwyMT
-kyMjcyNjIsLTEyODQ2NzEyNiwxMTEyMjEyMjU5LDM5MzQzMTk3
-NCw2MTU0MDI5MzEsLTE0NzU4NDQyNTcsLTEwOTA5MTA4NDAsMT
-AzNjc3NTI5NCwtNjU1MzM4MjMwLDE2NDQyMzg1NiwxMzY0NTM3
-OTE3LC0xNjk2NTQ4Nzc5LDM0NjQwMzM4MCw0NjcyMzczNjAsLT
-E1NDcwNzcwMDgsNTk5ODkxOTI4LDE3MDU5MTQzMjMsLTQ4OTI1
-MTUwNF19
+eyJoaXN0b3J5IjpbMzI2Mzg3NTg0LC02NjMwNTg1NDgsLTIwMD
+Q4NjE1NjUsMjE5MjI3MjYyLC0xMjg0NjcxMjYsMTExMjIxMjI1
+OSwzOTM0MzE5NzQsNjE1NDAyOTMxLC0xNDc1ODQ0MjU3LC0xMD
+kwOTEwODQwLDEwMzY3NzUyOTQsLTY1NTMzODIzMCwxNjQ0MjM4
+NTYsMTM2NDUzNzkxNywtMTY5NjU0ODc3OSwzNDY0MDMzODAsND
+Y3MjM3MzYwLC0xNTQ3MDc3MDA4LDU5OTg5MTkyOCwxNzA1OTE0
+MzIzXX0=
 -->
