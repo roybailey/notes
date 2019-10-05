@@ -289,13 +289,15 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 
 ## Roles
 
-
+* Create an IAM *Role* and attach to EC2 instance
+* Avoids configuring and storing credentials on each EC2 instance
+* Roles can be used in any *Region* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTAyODMzMiwtOTEzMjk4NzQ3LC0xMj
-M0MjQxMTg1LDE4Njc0ODgwNTAsLTY2MzA1ODU0OCwtMjAwNDg2
-MTU2NSwyMTkyMjcyNjIsLTEyODQ2NzEyNiwxMTEyMjEyMjU5LD
-M5MzQzMTk3NCw2MTU0MDI5MzEsLTE0NzU4NDQyNTcsLTEwOTA5
-MTA4NDAsMTAzNjc3NTI5NCwtNjU1MzM4MjMwLDE2NDQyMzg1Ni
-wxMzY0NTM3OTE3LC0xNjk2NTQ4Nzc5LDM0NjQwMzM4MCw0Njcy
-MzczNjBdfQ==
+eyJoaXN0b3J5IjpbLTc4MjI3ODMwOSwxODA1MDI4MzMyLC05MT
+MyOTg3NDcsLTEyMzQyNDExODUsMTg2NzQ4ODA1MCwtNjYzMDU4
+NTQ4LC0yMDA0ODYxNTY1LDIxOTIyNzI2MiwtMTI4NDY3MTI2LD
+ExMTIyMTIyNTksMzkzNDMxOTc0LDYxNTQwMjkzMSwtMTQ3NTg0
+NDI1NywtMTA5MDkxMDg0MCwxMDM2Nzc1Mjk0LC02NTUzMzgyMz
+AsMTY0NDIzODU2LDEzNjQ1Mzc5MTcsLTE2OTY1NDg3NzksMzQ2
+NDAzMzgwXX0=
 -->
