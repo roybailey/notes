@@ -285,13 +285,14 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * paste in *Access Key ID* and *Secret Access Key* from aws user account setup
   * Default region e.g. `us-east-1`
   * Default output format `None`
-* 
+* Exposes *Access Key ID* and *Secret Access Key* ; use *Roles* instead
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzI5ODc0NywtMTIzNDI0MTE4NSwxOD
-Y3NDg4MDUwLC02NjMwNTg1NDgsLTIwMDQ4NjE1NjUsMjE5MjI3
-MjYyLC0xMjg0NjcxMjYsMTExMjIxMjI1OSwzOTM0MzE5NzQsNj
-E1NDAyOTMxLC0xNDc1ODQ0MjU3LC0xMDkwOTEwODQwLDEwMzY3
-NzUyOTQsLTY1NTMzODIzMCwxNjQ0MjM4NTYsMTM2NDUzNzkxNy
-wtMTY5NjU0ODc3OSwzNDY0MDMzODAsNDY3MjM3MzYwLC0xNTQ3
-MDc3MDA4XX0=
+eyJoaXN0b3J5IjpbLTEwNzA1ODgzMjEsLTkxMzI5ODc0NywtMT
+IzNDI0MTE4NSwxODY3NDg4MDUwLC02NjMwNTg1NDgsLTIwMDQ4
+NjE1NjUsMjE5MjI3MjYyLC0xMjg0NjcxMjYsMTExMjIxMjI1OS
+wzOTM0MzE5NzQsNjE1NDAyOTMxLC0xNDc1ODQ0MjU3LC0xMDkw
+OTEwODQwLDEwMzY3NzUyOTQsLTY1NTMzODIzMCwxNjQ0MjM4NT
+YsMTM2NDUzNzkxNywtMTY5NjU0ODc3OSwzNDY0MDMzODAsNDY3
+MjM3MzYwXX0=
 -->
