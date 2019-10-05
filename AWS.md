@@ -256,7 +256,7 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * Copy snapshot and add encryption+key
   * Launch new instance from encrypted volume
 
-## CloudWatch
+## CloudWatch - Performance Monitoring
 
 * ***Performance Monitoring service to monitor AWS resources and applications***
 * Compute
@@ -272,16 +272,16 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
   * Storage gateways
   * CloudFront
 
-## CloudTrail
+## CloudTrail - CCTV on AWS Users activity
 
-* Records management console actions and API calls
-* Iden
+* ***Records management console actions and API calls***
+* Identify users/accounts calling AWS, source IP, timestamps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE1MDA4MjksLTY2MzA1ODU0OCwtMj
-AwNDg2MTU2NSwyMTkyMjcyNjIsLTEyODQ2NzEyNiwxMTEyMjEy
-MjU5LDM5MzQzMTk3NCw2MTU0MDI5MzEsLTE0NzU4NDQyNTcsLT
-EwOTA5MTA4NDAsMTAzNjc3NTI5NCwtNjU1MzM4MjMwLDE2NDQy
-Mzg1NiwxMzY0NTM3OTE3LC0xNjk2NTQ4Nzc5LDM0NjQwMzM4MC
-w0NjcyMzczNjAsLTE1NDcwNzcwMDgsNTk5ODkxOTI4LDE3MDU5
-MTQzMjNdfQ==
+eyJoaXN0b3J5IjpbNjczODM5NjI3LC02NjMwNTg1NDgsLTIwMD
+Q4NjE1NjUsMjE5MjI3MjYyLC0xMjg0NjcxMjYsMTExMjIxMjI1
+OSwzOTM0MzE5NzQsNjE1NDAyOTMxLC0xNDc1ODQ0MjU3LC0xMD
+kwOTEwODQwLDEwMzY3NzUyOTQsLTY1NTMzODIzMCwxNjQ0MjM4
+NTYsMTM2NDUzNzkxNywtMTY5NjU0ODc3OSwzNDY0MDMzODAsND
+Y3MjM3MzYwLC0xNTQ3MDc3MDA4LDU5OTg5MTkyOCwxNzA1OTE0
+MzIzXX0=
 -->
