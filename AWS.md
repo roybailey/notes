@@ -280,13 +280,14 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 
 ## AWS Command Line
 
-
+* Commands once ssh onto box `aws <service> <command>`
+* To run a command `aws configure` and paste in Access Key ID and Sectet Ac
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTIwMDEzMDcsLTEyMzQyNDExODUsMT
-g2NzQ4ODA1MCwtNjYzMDU4NTQ4LC0yMDA0ODYxNTY1LDIxOTIy
-NzI2MiwtMTI4NDY3MTI2LDExMTIyMTIyNTksMzkzNDMxOTc0LD
-YxNTQwMjkzMSwtMTQ3NTg0NDI1NywtMTA5MDkxMDg0MCwxMDM2
-Nzc1Mjk0LC02NTUzMzgyMzAsMTY0NDIzODU2LDEzNjQ1Mzc5MT
-csLTE2OTY1NDg3NzksMzQ2NDAzMzgwLDQ2NzIzNzM2MCwtMTU0
-NzA3NzAwOF19
+eyJoaXN0b3J5IjpbMTkzODYxOTA5LC0xMjM0MjQxMTg1LDE4Nj
+c0ODgwNTAsLTY2MzA1ODU0OCwtMjAwNDg2MTU2NSwyMTkyMjcy
+NjIsLTEyODQ2NzEyNiwxMTEyMjEyMjU5LDM5MzQzMTk3NCw2MT
+U0MDI5MzEsLTE0NzU4NDQyNTcsLTEwOTA5MTA4NDAsMTAzNjc3
+NTI5NCwtNjU1MzM4MjMwLDE2NDQyMzg1NiwxMzY0NTM3OTE3LC
+0xNjk2NTQ4Nzc5LDM0NjQwMzM4MCw0NjcyMzczNjAsLTE1NDcw
+NzcwMDhdfQ==
 -->
