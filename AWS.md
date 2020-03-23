@@ -292,12 +292,66 @@ https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
 * Create an IAM *Role* and attach to EC2 instance
 * Avoids configuring and storing credentials on each EC2 instance
 * Roles can be used in any *Region* 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MjI3ODMwOSwxODA1MDI4MzMyLC05MT
-MyOTg3NDcsLTEyMzQyNDExODUsMTg2NzQ4ODA1MCwtNjYzMDU4
-NTQ4LC0yMDA0ODYxNTY1LDIxOTIyNzI2MiwtMTI4NDY3MTI2LD
-ExMTIyMTIyNTksMzkzNDMxOTc0LDYxNTQwMjkzMSwtMTQ3NTg0
-NDI1NywtMTA5MDkxMDg0MCwxMDM2Nzc1Mjk0LC02NTUzMzgyMz
-AsMTY0NDIzODU2LDEzNjQ1Mzc5MTcsLTE2OTY1NDg3NzksMzQ2
-NDAzMzgwXX0=
--->
+
+## SQS - Simple Queue Service
+
+* Queue text data
+* Default standard = high throughput, unordered, delivery at least once
+* FIFO = First In, First Out, guaranteed ordered and only once (but slower)
+
+## SWF - Simple WorkFlow Service
+
+* Coordination of tasks, especially for human steps
+* Tasks can last up to 1 year
+* SWF Actors - Workflow starters, Deciders, Activity Workers
+
+## SNS - Simple Notification Service
+
+* Push based delivery of notifications to mobile, texts, SMS
+* Web service to send notifications to subscribers
+* Published to topics users can subscribe to
+* 1 minute to 14 days
+* Visibility timeout is time taken from queue waiting for consumer to confirm processing before re-queued
+* Long poll waits for new message
+
+## SES - Simple Email Service
+
+* Sends emails
+
+## Elastic Transcoder
+
+* Media Transcoder
+* Convert media from original to formats optimized for different devices
+
+## API Gateway
+
+* Load balancer of API calls to multiple sources (Lambda, EC2, DynamooDB)
+* Expose https endpoints to define RESTful API
+* Scales, caches responses
+
+## Kinesis - Streaming Data  
+
+* Place to send streaming data in AWS
+* Kinesis Streams = stream of data into shards storage (24hrs) for consumers to read
+* Kenesis Firehose = no storage, lambda processing into long term storage (e.g. s3, redshift etc.)
+* Kinesis Analytics = combines streams and firehose before storaging somewhere
+
+## Web Identity Federation - Cognito
+
+* Sign-in and sign-up via social media authentication (Facebook, Google, Amazon etc.)
+* Access for guest users
+* Identity broker between application and Web ID providers
+* Synchronizes user data for multiple devices
+* Successful sign-in generates JWT
+* Authentication : *User Pool* captures user data (email etc.) returns JWT
+* Authorization : JWT used with *Identity Pool* to get AWS credentials (IAM role) to allowed services
+* AWS credentials used to access AWS services e.g. S3 etc. 
+
+## Lambda - serverless
+
+* Lambda scales out
+* 1 event = 1 function
+* Lambda can trigger other Lambda functions
+* AWS X-ray service helps debug serverless
+* Priced by Number of Requests (first 1 million free) & Duration (time running * memory used)
+
